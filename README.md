@@ -1,21 +1,26 @@
-# Trader Behavior Insights
-## Introduction
-Analyzed Bitcoin Fear & Greed Index and Hyperliquid trade data to explore trader performance.
+<p align="center">
+  <img src="https://img.icons8.com/color/96/000000/bitcoin.png" alt="Project Logo" width="100"/>
+</p>
+<h1 align="center">Trader Behavior Insights: Bitcoin Sentiment & Performance Analysis</h1>
 
-## Key Findings
-- Extreme Greed (index >75): High profits (e.g., avg PnL +3323).
-- Greed (55-74): Consistent losses (e.g., avg PnL -2259).
-- @107 outperforms FARTCOIN in Greed due to lower volatility.
-- Buys in high sentiment, sells in declining sentiment.
+![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)
+![Jupyter](https://img.shields.io/badge/jupyter-notebook-orange.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Status](https://img.shields.io/badge/status-completed-success.svg)
 
-## Visuals
-Include scatter/bar/time series plots from code
+---
 
-## Trading Strategies
-1. Buy in Fear (index <25) for better entries.
-2. Sell in Extreme Greed (index >75) for profits.
-3. Avoid FARTCOIN in Greed to reduce losses.
-4. Monitor sentiment trends to time trades.
+## 📋 Overview
+This project analyzes the relationship between **Bitcoin market sentiment** (Fear & Greed Index) and **trader performance** (Closed PnL) using Hyperliquid historical trade data. The goal is to uncover patterns and propose data-driven trading strategies. This is my submission for the **Junior Data Scientist** position at Bajarangs/Primetrade.ai.
 
-## Limitations
-Limited data (few days in Greed/Extreme Greed). Full dataset would improve analysis.
+## 📊 Datasets
+- **Bitcoin Fear & Greed Index** (`fear_greed_index.csv`): Daily sentiment scores (0-100) and classifications (Extreme Fear, Fear, Neutral, Greed, Extreme Greed) from 2018 to 2025.
+- **Historical Trader Data** (`historical_data.csv`): Trade records from Hyperliquid (Dec 2024–Apr 2025), including Account, Coin, Closed PnL, Size USD, Side, and Timestamp IST.
+
+## ⚙️ Setup Instructions
+### Prerequisites
+- **Python 3.10+**
+- **Libraries**: `pandas`, `matplotlib`, `scipy`, `statsmodels`, `numpy`
+- Install dependencies:
+  ```bash
+  pip install pandas matplotlib scipy statsmodels numpy
