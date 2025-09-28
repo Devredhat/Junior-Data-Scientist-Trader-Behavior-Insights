@@ -9,7 +9,7 @@ Analyzed Bitcoin Fear & Greed Index and Hyperliquid trade data to explore trader
 - Buys in high sentiment, sells in declining sentiment.
 
 ## Visuals
-[Include scatter/bar/time series plots from code]
+Include scatter/bar/time series plots from code
 
 ## Trading Strategies
 1. Buy in Fear (index <25) for better entries.
