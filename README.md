@@ -25,6 +25,3 @@ This project analyzes the relationship between **Bitcoin market sentiment** (Fea
   ```bash
   pip install pandas matplotlib scipy statsmodels numpy
 
-https://drive.google.com/file/d/1dNMzpPGGiiZ35YbRUvMFjxE2dZozDaxv/view?usp=sharing%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20
-https://drive.google.com/file/d/1zkgJwJ_Cdoq3XPjhzzqueTnCYtYpqD_B/view?usp=sharing%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20
-https://drive.google.com/file/d/1kqT00VAUyK2hXfyZr48nGSkRxWzZyr0o/view?usp=sharing
